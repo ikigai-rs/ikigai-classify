@@ -17,6 +17,10 @@ or run a second one in shadow beside it, without changing anything that reads th
 
 **Status:** scaffold. The design is ledger #2690; the module is not built or published yet.
 
+## Accessibility
+
+This crate emits nothing people read yet. [ACCESSIBILITY.md](ACCESSIBILITY.md) says so, grows with the code, and says how to report a barrier: an issue carrying the `accessibility` label.
+
 ## License
 
 MIT or Apache-2.0, at your option.

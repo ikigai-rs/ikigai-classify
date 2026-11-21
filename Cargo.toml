@@ -1,6 +1,6 @@
 [package]
 name = "ikigai-classify"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Classifiers as resources for ikigai: one contract, urn:iki:classify:{c}:answer, over interchangeable backends chosen by configuration."
@@ -15,5 +15,6 @@ categories = ["wasm", "text-processing"]
 # The released kernel, consumed from crates.io: the same version the hosts use, so a host
 # links exactly one `ikigai-core`. 0.3.0 is the scoped content store (ledger #2965): held
 # content is scoped to whoever delivered it, a principal-less hold is root's, and
-# `ContentStore::put`/`put_replay` are root-only. ⚠ `"0.3.0"` is also a ceiling below 0.4.0.
-ikigai-core = "0.3.0"
+# `ContentStore::put`/`put_replay` are root-only. 0.4.0 is core 0.4.0 (scope opacity,
+# structured denials; the cascade, ledger #3893). ⚠ `"0.4.0"` is also a ceiling below 0.5.0.
+ikigai-core = "0.4.0"
